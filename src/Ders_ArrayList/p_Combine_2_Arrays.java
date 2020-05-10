@@ -2,7 +2,7 @@ package Ders_ArrayList;
 
 import java.util.ArrayList;
 
-public class F_Combine_2_Arrays {
+public class p_Combine_2_Arrays {
     public static void main(String[] args) {
 
         String[] arr1 = {"A", "B", "C"};

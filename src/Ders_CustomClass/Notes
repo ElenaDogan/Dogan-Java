@@ -1,0 +1,38 @@
+
+
+**************************************************************************
+The toString() method returns the string representation of the object.
+If you print any object, java compiler internally invokes the toString()
+method on the object.
+
+EXAMPLE:
+public String toString() {
+        String result = Brand + " " + year + " " + model + " " + color;
+        return result;
+    }
+Car car1 = new Car();
+...
+System.out.println( car1 );         ==> BMW 2020 X5 Red
+
+ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+System.out.println( list1 );  // toString method gets executed automatically
+
+
+**************************************************************************
+
+public class BankAccount {
+
+    String accountHolder;           ==> data/attributes:  instance variables
+    long accountNumber;
+    double balance;
+
+    public void checkingBalance() {     ==> instance methods
+         ...
+    }
+    ...
+
+INSTANCE VARIABLES are object variables, we can call them through the object name
+car1.model = "C Class"
+
+**************************************************************************
+

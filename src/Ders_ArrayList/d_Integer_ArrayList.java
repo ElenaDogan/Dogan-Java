@@ -1,9 +1,8 @@
 package Ders_ArrayList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class A_Integer_ArrayList {
+public class d_Integer_ArrayList {
     public static void main(String[] args) {
     // **********************************************************************
         ArrayList<Integer> list = new ArrayList<>();

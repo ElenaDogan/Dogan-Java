@@ -3,7 +3,7 @@ package Ders_ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class B_String_ArrayList {
+public class e_String_ArrayList {
     public static void main(String[] args) {
 
         String[] arr = {"Sunday", "Monday", "Tuesday","Wednesday"};
